@@ -9,10 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Particles
-          style={{ position: "absolute" }}
-          height="95%"
-          width="95%"
+        <Particles className="particles"
           params={{
             particles: {
               color: {
