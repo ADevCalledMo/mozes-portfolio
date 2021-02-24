@@ -3,7 +3,7 @@ import profilePic from "../images/Mozes.png";
 
 const Landing = () => {
   return (
-    <section className="s1">
+    <div className="s1">
       <div className="main-container">
         <div className="greeting-wrapper">
           <h1>Hi, I'm Mozes...</h1>
@@ -43,7 +43,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

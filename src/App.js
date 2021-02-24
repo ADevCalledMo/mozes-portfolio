@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Particles from "react-particles-js";
 import Navigation from "./components/Navigation";
 import Landing from "./components/Landing";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -31,6 +34,9 @@ class App extends Component {
         />
         <Navigation />
         <Landing />
+        <About />
+        <Projects />
+        <Contact />
       </div>
     );
   }
