@@ -14,11 +14,19 @@
   --buttonColor: black;
 }
 
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
 /* --- */
 html,
 body {
   padding: 0;
   margin: 0;
+}
+
+h1 {
+  padding-bottom: 15px;
 }
 
 h1,
@@ -28,7 +36,9 @@ h4,
 h5,
 h6,
 strong {
-  color: var(--main-text);
+  /* color: var(--main-text); */
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 p,
@@ -37,7 +47,7 @@ span,
 label,
 input,
 textarea {
-  color: var(--secondary-text);
+ font-family: sans-serif;
 }
 
 .s1{
@@ -55,8 +65,9 @@ textarea {
 .main-container {
   width: 1200px;
   margin: 0 auto;
-  background-color: var(--border-color)
+
 }
+
 
 ul {
     list-style: none;
@@ -65,7 +76,7 @@ ul {
 /* NAVBAR */
 /* Colour Scheme */
 .navbar-custom {
-  background-color: var(--main-color);
+  background-color: darkblue;
 }
 
 /* Menu Links */
@@ -75,7 +86,16 @@ a.nav-link {
   letter-spacing: 0.0375rem;
   text-decoration: none;
   color: var(--secondary-color);
-  text-transform: uppercase;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: whitesmoke !important;
 }
 
 a.navbar-brand {
@@ -121,6 +141,12 @@ a.navbar-brand {
     "left-column right-column";
 }
 
+/* Typed Text */
+.typed-text {
+    font-size: 3.5rem;
+    color: var(--secondary-text);
+}
+
 .nav-wrapper {
   grid-area: nav-wrapper;
   border-bottom: 1px solid var(--border-color);
@@ -128,6 +154,22 @@ a.navbar-brand {
   justify-content: space-between;
   align-items: center;
   background-color: var(--border-color);
+}
+
+#links {
+  margin: 0;
+  padding: 10px;
+}
+
+#links li {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+
+#links a {
+  color: #5f5f5f;
 }
 
 .dots-wrapper {
@@ -189,18 +231,24 @@ a.navbar-brand {
 
 #preview-shadow {
   background-color: var(--previewShadow);
-  width: 300px;
-  height: 180px;
+  width: 350px;
+  height: 200px;
   padding-left: 30px;
   padding-top: 30px;
 }
 
 #preview {
-  width: 300px;
-  border: 1.5px solid #17a2b8;
+  width: 350px;
+  height: 200px;
+  border: 2px solid #17a2b8;
   background-color: var(--previewBg);
   padding: 15px;
   position: relative;
+}
+
+#preview h3 {
+  font-size: 3rem;
+
 }
 
 .corner {
@@ -243,10 +291,32 @@ a.navbar-brand {
 
 }
 
+#more-about-me h3, p, a{
+  text-align: center;
+}
+
+#more-about-me h3{
+padding-bottom: 20px;
+font-size: 3rem;
+}
+
+#more-about-me p {
+  font-size: 2rem;
+  padding-bottom: 5px;
+}
+
 #skills{
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
+}
+
+#skills ul {
+  padding-top: 15px;
+}
+
+#skills li {
+  font-size: 32px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -272,13 +342,14 @@ a.navbar-brand {
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, 320px);
-    gap: 20px;
+    gap: 40px;
     justify-content: center;
     padding-bottom: 50px;
 }
 
 .post {
     border: 1px solid var(--border-color);
+
 
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
@@ -293,6 +364,7 @@ a.navbar-brand {
 .post-title {
     color: black;
     margin: 0;
+    text-align: center;
 }
 
 .post-intro{

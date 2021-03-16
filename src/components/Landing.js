@@ -1,4 +1,5 @@
 import React from "react";
+import Typed from "react-typed";
 import profilePic from "../images/Mozes.png";
 
 const Landing = () => {
@@ -6,7 +7,13 @@ const Landing = () => {
     <div className="s1">
       <div className="main-container">
         <div className="greeting-wrapper">
-          <h1>Hi, I'm Mozes...</h1>
+          <Typed
+            className="typed-text"
+            strings={["Hi, I'm Mozes...👋🏾", " I am a Web Developer 💻"]} 
+            typeSpeed={40}
+            backSpeed={30}
+            loop
+          />
         </div>
 
         <div className="intro-wrapper">
@@ -15,6 +22,11 @@ const Landing = () => {
               <div id="dot-1" className="browser-dot"></div>
               <div id="dot-2" className="browser-dot"></div>
               <div id="dot-3" className="browser-dot"></div>
+            </div>
+            <div id="links">
+              <li><a href="https://www.linkedin.com/in/mozeswalker/" target="_blank">LinkedIn</a></li>
+              <li><a href="#">Twitter</a></li>
+
             </div>
           </div>
           <div className="left-column">

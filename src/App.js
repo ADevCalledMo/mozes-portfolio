@@ -32,7 +32,7 @@ class App extends Component {
             }
           }}
         />
-        <Navigation />
+        {/* <Navigation /> */}
         <Landing />
         <About />
         <Projects />

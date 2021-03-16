@@ -6,19 +6,24 @@ const About = () => {
       <div className="main-container">
         <div className="about-wrapper">
           <div className="about-me">
-            <h4> More About Me</h4>
+            <div id="more-about-me">
+              <h3> More About Me: </h3>
 
-            <p> ADD INFOMATION HERE</p>
-
-            <p> ADD MORE INFOMATION HERE</p>
-
-            <h4> My Knowledge: </h4>
-            <p>
-              Self-taught Web Developer with a focus on HTML, CSS, Javascript
-              and React: <a href="CV.pdf">Download CV</a>
-            </p>
-
+              <p>
+                Hello, my name is Mozes. I am self-taught Front-End Web
+                Developer based in Nottingham, United Kingdom. I really enjoy
+                making websites, learning new technologies and brushing up on
+                existing skills. Please take a look at my previous work below
+                and don't hesitate to contact me if you are interested hiring
+                me.
+              </p>
+              <p>
+                <a href="https://buzzcv.com/cv/temc4qceyj3p/temc4qceyj3p" target="_blank">Download CV</a>
+              </p>
+              <h3> What I work with: </h3>
+            </div>
             <div id="skills">
+
               <ul>
                 <li>Javascript</li>
                 <li>React</li>
