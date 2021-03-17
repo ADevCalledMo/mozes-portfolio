@@ -9,7 +9,7 @@ const Landing = () => {
         <div className="greeting-wrapper">
           <Typed
             className="typed-text"
-            strings={["Hi, I'm Mozes...👋🏾", " I am a Web Developer 💻"]} 
+            strings={["Hi, I'm Mozes...", " I am a Web Developer"]} 
             typeSpeed={40}
             backSpeed={30}
             loop
@@ -25,7 +25,7 @@ const Landing = () => {
             </div>
             <div id="links">
               <li><a href="https://www.linkedin.com/in/mozeswalker/" target="_blank">LinkedIn</a></li>
-              <li><a href="#">Twitter</a></li>
+              <li><a href="mailto: mozeswalker@outlook.com">Send me an Email!</a></li>
 
             </div>
           </div>

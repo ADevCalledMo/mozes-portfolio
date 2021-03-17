@@ -10,15 +10,15 @@ const About = () => {
               <h3> More About Me: </h3>
 
               <p>
-                Hello, my name is Mozes. I am self-taught Front-End Web
-                Developer based in Nottingham, United Kingdom. I really enjoy
+                Hello, my name is Mozes. I am self-taught <strong> Front-End Web
+                Developer</strong> based in <strong>Nottingham, United Kingdom.</strong> I really enjoy
                 making websites, learning new technologies and brushing up on
-                existing skills. Please take a look at my previous work below
+                existing skills. <strong>Please take a look at my previous work below
                 and don't hesitate to contact me if you are interested hiring
-                me.
+                me.</strong>
               </p>
               <p>
-                <a href="https://buzzcv.com/cv/temc4qceyj3p/temc4qceyj3p" target="_blank">Download CV</a>
+                <a href="https://buzzcv.com/cv/temc4qceyj3p/temc4qceyj3p" target="_blank">View CV</a>
               </p>
               <h3> What I work with: </h3>
             </div>
