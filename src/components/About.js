@@ -10,7 +10,7 @@ const About = () => {
               <h3> More About Me: </h3>
 
               <p>
-                Hello, my name is Mozes. I am self-taught <strong> Front-End Web
+                Hello, my name is Mozes. I am self-taught <strong> Web
                 Developer</strong> based in <strong>Nottingham, United Kingdom.</strong> I really enjoy
                 making websites, learning new technologies and brushing up on
                 existing skills. <strong>Please take a look at my previous work below
