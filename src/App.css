@@ -128,7 +128,8 @@ a.navbar-brand {
   display: grid;
   text-align: center;
   align-content: center;
-  min-height: 10em;
+  min-height: 100vh;
+
 }
 
 .intro-wrapper {
@@ -150,8 +151,12 @@ a.navbar-brand {
 
 /* Typed Text */
 .typed-text {
+  font-family: serif;
     font-size: 6rem;
     color: #eaeaea;
+    text-shadow: 5px 5px #c1c1c1;
+    text-transform: uppercase;
+
     
   
 }

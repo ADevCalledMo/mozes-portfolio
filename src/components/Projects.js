@@ -20,7 +20,7 @@ const Projects = () => {
                 app successfully finds a face. There is a simple login system
                 aswell. Technologies used: React.js, PostgreSQL, HTML, CSS.
               </p>
-              <a href="">Launch Site</a>
+              <a href="https://mozes-smart-brain.herokuapp.com/" target="_blank" >Launch Site</a>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Projects = () => {
                 CSS.{" "}
               </p>
 
-              <a href="">Launch Site</a>
+              <a href="https://covid19-data-chart.netlify.app/" target="_blank">Launch Site</a>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Projects = () => {
                 self-taught web developer. Technologies used: React, Gatsby.js,
                 Contentful
               </p>
-              <a href="">Launch Site</a>
+              <a href="https://ablogfrommozes.netlify.app/" target="_blank">Launch Site</a>
             </div>
           </div>
         </div>
